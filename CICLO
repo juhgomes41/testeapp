@@ -1,0 +1,17 @@
+# Inicializo o Git na pasta
+git init
+
+# Conecto minha pasta ao repositório do GitHub
+git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+
+# Renomeio a branch principal pra 'main'
+git branch -M main
+
+# Preparo todos os arquivos alterados pra subir
+git add .
+
+# Salvo essa versão localmente com uma mensagem explicativa
+git commit -m "Initial commit: primeiro envio do projeto"
+
+# Envio tudo direto pro GitHub
+git push -u origin main
